@@ -1,3 +1,6 @@
+USE master
+GO
+
 DROP DATABASE IF EXISTS LMP
 GO
 
