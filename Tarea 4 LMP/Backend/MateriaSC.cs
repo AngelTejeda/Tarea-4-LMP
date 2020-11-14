@@ -33,7 +33,7 @@ namespace Tarea_4_LMP.Backend
 
                 Console.WriteLine(" Se eliminó la materia " + materia.nombre_materia);
             }
-            catch(Exception e)
+            catch(Exception)
             {
                 Console.WriteLine(" Ha ocurrido un error al intentar eliminar la materia " + materia.nombre_materia);
             }
