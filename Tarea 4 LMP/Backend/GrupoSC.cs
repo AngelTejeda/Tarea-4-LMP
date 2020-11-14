@@ -11,7 +11,7 @@ namespace Tarea_4_LMP.Backend
             return dbContext.Grupo;
         }
 
-        public Grupo GetGroup(String subject, int groupNumber)
+        public Grupo GetGroup(string subject, int groupNumber)
         {
             return GetAllGrupos().FirstOrDefault(g => g.Materia.nombre_materia == subject && g.num_grupo == groupNumber);
         }
